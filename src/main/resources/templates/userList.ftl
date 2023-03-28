@@ -4,7 +4,7 @@
 <body>
 	<div style="padding: 10px;">
 		<div class="userTable">
-			  搜索美女：
+			  搜索人物：
 			  <div class="layui-inline">
 			    <input class="layui-input" name="name" id="demoReload" autocomplete="off">
 			  </div>
@@ -15,7 +15,7 @@
 			 <!-- 底部固定区域 -->
 			 <div class="layui-footer">
 			     &nbsp;&nbsp;&nbsp;
-                          后宫佳丽三千人，三千宠爱在一身。
+                          一朝悲欢离合，穿越终究不过是一场梦,你不知,在你转身错落的那个轮回间,我已万劫不复！
 	      </div>
       </div>
       <!-- 操作列的标签-->
@@ -28,13 +28,10 @@
  	女
  {{#  } }}
 
- {{#  if(d.sex === 'Y'){ }}
- 	妖
- {{#  } }}
 </script>
 <!-- 操作列的标签-->
 <script type="text/html" id="userOperBar">
-    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">打入冷宫</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">启动时光机</a>
 </script>
       <script src="../js/jquery-1.8.2.min.js"></script>
       <script src="../js/layui/layui.js"></script>
