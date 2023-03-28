@@ -17,7 +17,7 @@ function adduser(){
 
 function queryuserList(){
 	layer.open({
-		  title :"今晚想穿越到哪个人物所处的时代",
+		  title :"今天你想穿越到哪个人物所处的时代",
 		  type: 2, 
 		  content: 'queryUserListPage', //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['${contextPath}/s/loadProdListPage', 'no']
 		  area: ['1024px', '650px']
