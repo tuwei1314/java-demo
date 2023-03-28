@@ -4,7 +4,7 @@ jQuery(function($){
 
         // Functionality
         slide_interval     : 4000,    // Length between transitions
-        transition         : 1,    // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+        transition         : 5,    // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
         transition_speed   : 1000,    // Speed of transition
         performance        : 1,    // 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
 
@@ -21,6 +21,7 @@ jQuery(function($){
         slide_links        : 'blank',    // Individual links for each slide (Options: false, 'num', 'name', 'blank')
         slides             : [    // Slideshow Images
                                  {image : '../images/bg.jpg'},
+                                 {image : '../images/bg-src.jpg'},
                              ]
 
     });
