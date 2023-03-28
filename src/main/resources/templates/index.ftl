@@ -23,7 +23,7 @@
             <h1 class="title"></h1>
             <div style="margin-top: 15%;">
             	<button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" onclick="adduser()">添加历史人物</button>
-                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" onclick="queryuserList()">今晚你想穿越到哪个朝代</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" onclick="queryuserList()">你想穿越到哪个朝代</button>
             </div>
          <!--    <div style="text-align:center;clear:both" class="date">
 			</div> -->
@@ -44,7 +44,7 @@
         <script src="../js/index.js"></script>
         <script type="text/javascript">
         	 $('.title').typeIt({
-           	  whatToType: "假如给你一台时空机，你想穿越回到唐朝、宋朝还是......",
+           	  whatToType: "穿越时空的爱恋",
               typeSpeed: 300,
               lifeLike: true,
               breakLines :true
