@@ -21,7 +21,6 @@
 		    <div class="layui-input-block">
 		      <input type="radio" name="sex" value="M" title="男" checked>
 		      <input type="radio" name="sex" value="F" title="女">
-		      <input type="radio" name="sex" value="Y" title="妖">
 		    </div>
 		  </div>
 		  <!-- <div class="layui-form-item layui-form-text">
