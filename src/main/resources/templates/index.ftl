@@ -44,7 +44,7 @@
         <script src="../js/index.js"></script>
         <script type="text/javascript">
         	 $('.title').typeIt({
-           	  whatToType: "穿越时空的爱恋",
+           	  whatToType: "穿越时空的旅途",
               typeSpeed: 300,
               lifeLike: true,
               breakLines :true
