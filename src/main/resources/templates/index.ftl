@@ -3,7 +3,7 @@
 <head lang="en">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>JAVA应用案例</title>
+	<title>JAVA应用案例-时空穿越</title>
 	<meta name="description" content="JAVA应用案例">
 	<meta name="keywords" content="index">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -44,7 +44,7 @@
         <script src="../js/index.js"></script>
         <script type="text/javascript">
         	 $('.title').typeIt({
-           	  whatToType: "假如给你一台时空机，你想穿越回到哪个朝代",
+           	  whatToType: "假如给你一台时空机，你想穿越回到唐朝、宋朝还是......",
               typeSpeed: 300,
               lifeLike: true,
               breakLines :true
