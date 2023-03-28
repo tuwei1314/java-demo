@@ -3,7 +3,7 @@
 <head lang="en">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>JAVA应用案例-时空穿越</title>
+	<title>J时空穿越</title>
 	<meta name="description" content="JAVA应用案例">
 	<meta name="keywords" content="index">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
