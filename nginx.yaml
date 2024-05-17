@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: container-1
-          image: nginx:perl
+          image: nginx
           imagePullPolicy: IfNotPresent
           resources:
             requests:
