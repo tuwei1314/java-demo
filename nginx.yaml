@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    description: ''
+  labels:
+    appgroup: ''
+    version: v1
+  name: ''
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: ''
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: ''
+        version: v1
+    spec:
+      containers:
+        - name: container-1
+          image: nginx:perl
+          imagePullPolicy: IfNotPresent
+          resources:
+            requests:
+              cpu: 10m
+              memory: 5Mi
+            limits:
+              cpu: 250m
+              memory: 512Mi
+      imagePullSecrets:
+        - name: default-secret
+  replicas: 1
