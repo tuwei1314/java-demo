@@ -20,6 +20,6 @@ public class AppSimpleTomcat  extends SpringBootServletInitializer {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(AppSimpleTomcat.class, args);
-		log.info("----------------------把美女带回家案例启动成功-------------------->>>");
+		log.info("----------------------穿越时空-------------------->>>");
 	}
 }
