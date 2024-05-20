@@ -6,7 +6,7 @@ metadata:
   labels:
     appgroup: ''
     version: v1
-  name: ''
+  name: 'github-test-cicd'
   namespace: default
 spec:
   selector:
