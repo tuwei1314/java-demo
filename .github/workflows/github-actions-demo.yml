@@ -58,6 +58,6 @@ jobs:
           mkdir -p $HOME/.kube
           export KUBECONFIG=$HOME/.kube/config
           echo ${{ secrets.KUBE_CONFIG }} | base64 -d > $KUBECONFIG
-          sed -i "s/nginx/swr.cn-north-4.myhuaweicloud.com/testapp\/gra-jy:${{ github.run_id }}/g" nginx.yaml
-          kubectl version
-          kubectl apply -f k8s.yaml
+          sed -i "s/image:.*/image: swr.cn-north-4.myhuaweicloud.com\/testapp\/gra-jy:${{ github.run_id }}/g" nginx.yaml
+          kubectl get no
+          kubectl apply -f nginx.yaml
