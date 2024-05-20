@@ -32,4 +32,4 @@ spec:
               memory: 512Mi
       imagePullSecrets:
         - name: default-secret
-  replicas: 2
+  replicas: 1
