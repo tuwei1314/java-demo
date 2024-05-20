@@ -27,8 +27,8 @@ jobs:
       uses: docker/login-action@v3
       with:
         registry: swr.cn-north-4.myhuaweicloud.com
-        username: cn-north-4@T7R5AR8O6MY0J1P3QB56
-        password: 731f0316c8e9c4706a58202500613e4a70311d5cab321f335bb30c0653ebd883
+        username: cn-north-4@ZFUMOMAMYAHJGIFXFBKD
+        password: 4da22d98274ad2104026c675546df90b10d8eede3bda7386c2f196519eb75e5e
     - name: List All File
       run: "ls -la"
     - name: Build and push
